@@ -1,0 +1,7 @@
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+
+test_index:
+    path: /index
+    controller: AppBundle:Bot:index
